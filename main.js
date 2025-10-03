@@ -1,4 +1,5 @@
 // main.js - Electron 主窗口
+//简单修改，测试推送！
 
 const sharp = require('sharp'); // 确保在文件顶部引入
 
