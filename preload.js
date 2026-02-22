@@ -350,6 +350,9 @@ contextBridge.exposeInMainWorld('electronAPI', {
     // Flowlock Control - for AI to control flowlock like a human user
     onFlowlockCommand: (callback) => ipcRenderer.on('flowlock-command', (_event, data) => callback(data)),
     sendFlowlockResponse: (data) => ipcRenderer.send('flowlock-response', data),
+
+    // Renderer log forwarding - send logs to main process for terminal output
+    logToMain: (level, message) => ipcRenderer.send('renderer-log', { level, message }),
 });
 
 // Log the electronAPI object as it's defined in preload.js right after exposing it
@@ -377,7 +380,8 @@ const electronAPIForLogging = {
     onWindowMaximized: "function", onWindowUnmaximized: "function",
     showImageContextMenu: "function",
     openImageInNewWindow: "function", saveAvatarColor: "function",
-    saveUserAvatar: "function" // Added
+    saveUserAvatar: "function", // Added
+    logToMain: "function" // Added for renderer log forwarding
 };
 console.log('[Preload] electronAPI object that *should* be exposed (structure check):', electronAPIForLogging);
 console.log('preload.js loaded and contextBridge exposure attempted.');

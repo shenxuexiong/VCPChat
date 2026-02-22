@@ -402,6 +402,19 @@ if (!gotTheLock) {
             app.quit();
         });
 
+        // Handle renderer log forwarding - display renderer logs in terminal
+        ipcMain.on('renderer-log', (event, logData) => {
+            const { level, message } = logData;
+            const timestamp = new Date().toLocaleTimeString();
+            if (level === 'error') {
+                console.error(`[Renderer ${timestamp}] ${message}`);
+            } else if (level === 'warn') {
+                console.warn(`[Renderer ${timestamp}] ${message}`);
+            } else {
+                console.log(`[Renderer ${timestamp}] ${message}`);
+            }
+        });
+
         // The native splash screen is started by the batch file, so no action is needed here.
 
         // Pre-warm the audio engine in the background. This doesn't block the main window.

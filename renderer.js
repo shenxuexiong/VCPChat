@@ -138,9 +138,9 @@ const uiHelperFunctions = window.uiHelperFunctions;
 import searchManager from './modules/searchManager.js';
 import { initialize as initializeEmoticonFixer } from './modules/renderer/emoticonUrlFixer.js';
 import * as interruptHandler from './modules/interruptHandler.js';
- 
+
 import { setupEventListeners } from './modules/event-listeners.js';
- 
+
  // --- Initialization ---
  document.addEventListener('DOMContentLoaded', async () => {
     // Initialize Emoticon Manager
@@ -1221,6 +1221,23 @@ import { setupEventListeners } from './modules/event-listeners.js';
             }
         });
         console.log('[Renderer] Flowlock command listener initialized');
+    }
+
+    // --- Initialize Upstream Error Fixer ---
+    if (window.upstreamErrorFixer) {
+        window.upstreamErrorFixer.init({
+            currentSelectedItemRef: { get: () => currentSelectedItem },
+            currentTopicIdRef: { get: () => currentTopicId },
+            currentChatHistoryRef: { get: () => currentChatHistory },
+            electronAPI: window.electronAPI
+        });
+        console.log('╔═══════════════════════════════════════════════════════════════╗');
+        console.log('║ [Renderer] ✅ Upstream error fixer 初始化完成！                     ║');
+        console.log('╚═══════════════════════════════════════════════════════════════╝');
+    } else {
+        console.log('╔═══════════════════════════════════════════════════════════════╗');
+        console.log('║ [Renderer] ❌ Upstream error fixer 模块未找到！                     ║');
+        console.log('╚═══════════════════════════════════════════════════════════════╝');
     }
 
 });

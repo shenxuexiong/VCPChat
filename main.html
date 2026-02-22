@@ -1026,11 +1026,31 @@
     <script type="module" src="modules/renderer/contentProcessor.js"></script>
     <script type="module" src="modules/renderer/messageContextMenu.js"></script>
     <script type="module" src="modules/event-listeners.js"></script>
+    <script type="module" src="modules/upstreamErrorFixer.js"></script>
     <script src="Flowlockmodules/flowlock.js"></script>
     <script src="Flowlockmodules/flowlock-integration.js"></script>
     <script type="module" src="renderer.js" defer></script>
 
     <!-- User Emoticon Panel -->
     <div id="emoticonPanel" class="emoticon-panel"></div>
+
+    <!-- Error Fixer Watchdog Status Indicator -->
+    <div id="errorFixerStatus" style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,128,0,0.8); color: white; padding: 8px 12px; border-radius: 20px; font-size: 12px; z-index: 10000; display: none; cursor: pointer; user-select: none;" title="点击重新回复最后一条消息">
+        🐕 看门狗运行中
+    </div>
+    <script>
+        // 显示看门狗状态指示器（点击事件由 upstreamErrorFixer 模块处理）
+        setTimeout(() => {
+            const indicator = document.getElementById('errorFixerStatus');
+
+            if (window.upstreamErrorFixer) {
+                indicator.style.display = 'block';
+            } else {
+                indicator.style.background = 'rgba(255,0,0,0.8)';
+                indicator.textContent = '🐕 看门狗未加载';
+                indicator.style.display = 'block';
+            }
+        }, 2000);
+    </script>
 </body>
 </html>

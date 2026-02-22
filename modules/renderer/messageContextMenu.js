@@ -1001,3 +1001,12 @@ export {
     handleRegenerateResponse,
     setContextMenuDependencies
 };
+
+// 挂载到 window 以便其他模块（如看门狗按钮）可以访问
+if (typeof window !== 'undefined') {
+    window.messageContextMenu = {
+        handleRegenerateResponse,
+        showContextMenu,
+        closeContextMenu
+    };
+}

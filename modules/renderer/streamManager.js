@@ -805,8 +805,12 @@ export function appendStreamChunk(messageId, chunkData, context) {
         // 只有在没有错误标记时才显示 raw 数据
         textToAppend = chunkData.raw;
     }
-    
-    if (!textToAppend) return;
+
+    // 如果没有提取到文本，记录原始数据以便调试
+    if (!textToAppend) {
+        console.debug(`[StreamManager] No text extracted from chunk for ${messageId}:`, chunkData);
+        return;
+    }
     
     // Always maintain accumulated text
     let currentAccumulated = accumulatedStreamText.get(messageId) || "";
@@ -888,9 +892,9 @@ export async function finalizeStreamedMessage(messageId, finishReason, context) 
     }
     
     // Find and update the message
-    const finalFullText = accumulatedStreamText.get(messageId) || "";
+    let finalFullText = accumulatedStreamText.get(messageId) || "";
     const messageIndex = historyForThisMessage.findIndex(msg => msg.id === messageId);
-    
+
     if (messageIndex === -1) {
         // If it's an assistant chat and the message is not found,
         // it's likely the window was reset. Ignore gracefully.
@@ -904,8 +908,13 @@ export async function finalizeStreamedMessage(messageId, finishReason, context) 
         console.error(`[StreamManager] Message ${messageId} not found in history`, storedContext);
         return;
     }
-    
+
     const message = historyForThisMessage[messageIndex];
+    // 如果累积文本为空但消息已有内容（例如错误消息），保留原有内容
+    if (!finalFullText && message.content) {
+        console.log(`[StreamManager] No accumulated text for ${messageId}, using existing content from history (length: ${message.content.length})`);
+        finalFullText = message.content;
+    }
     message.content = finalFullText;
     message.finishReason = finishReason;
     message.isThinking = false;
