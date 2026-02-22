@@ -16,3 +16,6 @@ node_modules/
 
 # Rust build artifacts
 rust_audio_engine/target/
+
+# Binary files (too large for git)
+bin/
