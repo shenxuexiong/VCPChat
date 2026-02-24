@@ -1,0 +1,1206 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.684867600s  INFO prepare_target{force=false package_id=NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash) target="NativeSplash"}: cargo::core::compiler::fingerprint: stale: missing "D:\\vcp\\VCPChat\\NativeSpalash\\target\\debug\\.fingerprint\\v_frame-08afe71ec45599f4\\dep-lib-v_frame"
+   0.691784400s  INFO prepare_target{force=false package_id=NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash) target="NativeSplash"}: cargo::core::compiler::fingerprint: stale: missing "D:\\vcp\\VCPChat\\NativeSpalash\\target\\debug\\.fingerprint\\tracing-5eb693d7ced8d1e3\\dep-lib-tracing"
+   0.695143800s  INFO prepare_target{force=false package_id=NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash) target="NativeSplash"}: cargo::core::compiler::fingerprint: fingerprint error for NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash)/Check { test: false }/TargetInner { name: "NativeSplash", doc: true, ..: with_path("D:\\vcp\\VCPChat\\NativeSpalash\\src\\main.rs", Edition2024) }
+   0.695183600s  INFO prepare_target{force=false package_id=NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash) target="NativeSplash"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\NativeSplash-29dc32057d4549fb\bin-NativeSplash`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.710810100s  INFO prepare_target{force=false package_id=fontdue v0.7.3 target="fontdue"}: cargo::core::compiler::fingerprint: fingerprint error for fontdue v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("fontdue", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\fontdue-0.7.3\\src\\lib.rs", Edition2018) }
+   0.710865500s  INFO prepare_target{force=false package_id=fontdue v0.7.3 target="fontdue"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\fontdue-2dd13c468e00da1e\lib-fontdue`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.711448800s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.13.2\\src\\lib.rs", Edition2021) }
+   0.711476900s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\hashbrown-50ff4c1f48ba5b31\lib-hashbrown`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.711929200s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.12/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ahash-0.8.12\\src\\lib.rs", Edition2018) }
+   0.711955400s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\ahash-c45d64a01b842086\lib-ahash`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.714150500s  INFO prepare_target{force=false package_id=zerocopy v0.8.39 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.39/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.39\\src\\lib.rs", Edition2021) }
+   0.714177100s  INFO prepare_target{force=false package_id=zerocopy v0.8.39 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\zerocopy-7e91c155d456f50a\lib-zerocopy`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.718445900s  INFO prepare_target{force=false package_id=ttf-parser v0.15.2 target="ttf_parser"}: cargo::core::compiler::fingerprint: fingerprint error for ttf-parser v0.15.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ttf_parser", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ttf-parser-0.15.2\\src\\lib.rs", Edition2018) }
+   0.718473700s  INFO prepare_target{force=false package_id=ttf-parser v0.15.2 target="ttf_parser"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\ttf-parser-a6bc973c704daec1\lib-ttf_parser`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.718873000s  INFO prepare_target{force=false package_id=image v0.25.9 target="image"}: cargo::core::compiler::fingerprint: fingerprint error for image v0.25.9/Check { test: false }/TargetInner { ..: lib_target("image", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\image-0.25.9\\src\\lib.rs", Edition2021) }
+   0.718899000s  INFO prepare_target{force=false package_id=image v0.25.9 target="image"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\image-78ae116fffe79076\lib-image`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.720154800s  INFO prepare_target{force=false package_id=exr v1.74.0 target="exr"}: cargo::core::compiler::fingerprint: fingerprint error for exr v1.74.0/Check { test: false }/TargetInner { ..: lib_target("exr", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\exr-1.74.0\\src\\lib.rs", Edition2018) }
+   0.720180400s  INFO prepare_target{force=false package_id=exr v1.74.0 target="exr"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\exr-879777e7ac22c7b1\lib-exr`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.721059600s  INFO prepare_target{force=false package_id=half v2.7.1 target="half"}: cargo::core::compiler::fingerprint: fingerprint error for half v2.7.1/Check { test: false }/TargetInner { ..: lib_target("half", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\half-2.7.1\\src\\lib.rs", Edition2021) }
+   0.721086800s  INFO prepare_target{force=false package_id=half v2.7.1 target="half"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\half-8a6f4a7fe0fcfef5\lib-half`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.722903700s  INFO prepare_target{force=false package_id=rayon-core v1.13.0 target="rayon_core"}: cargo::core::compiler::fingerprint: fingerprint error for rayon-core v1.13.0/Check { test: false }/TargetInner { ..: lib_target("rayon_core", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rayon-core-1.13.0\\src\\lib.rs", Edition2021) }
+   0.722959900s  INFO prepare_target{force=false package_id=rayon-core v1.13.0 target="rayon_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\rayon-core-8178f894e0131404\lib-rayon_core`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.727133900s  INFO prepare_target{force=false package_id=image-webp v0.2.4 target="image_webp"}: cargo::core::compiler::fingerprint: fingerprint error for image-webp v0.2.4/Check { test: false }/TargetInner { ..: lib_target("image_webp", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\image-webp-0.2.4\\src\\lib.rs", Edition2021) }
+   0.727162700s  INFO prepare_target{force=false package_id=image-webp v0.2.4 target="image_webp"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\image-webp-4c14205bbc1eff87\lib-image_webp`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.727855900s  INFO prepare_target{force=false package_id=moxcms v0.7.11 target="moxcms"}: cargo::core::compiler::fingerprint: fingerprint error for moxcms v0.7.11/Check { test: false }/TargetInner { ..: lib_target("moxcms", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\moxcms-0.7.11\\src\\lib.rs", Edition2024) }
+   0.727882600s  INFO prepare_target{force=false package_id=moxcms v0.7.11 target="moxcms"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\moxcms-958c01b68ac7daf2\lib-moxcms`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.729785700s  INFO prepare_target{force=false package_id=pxfm v0.1.27 target="pxfm"}: cargo::core::compiler::fingerprint: fingerprint error for pxfm v0.1.27/Check { test: false }/TargetInner { ..: lib_target("pxfm", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pxfm-0.1.27\\src\\lib.rs", Edition2024) }
+   0.729812000s  INFO prepare_target{force=false package_id=pxfm v0.1.27 target="pxfm"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\pxfm-a8a0348685fb1497\lib-pxfm`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.730261700s  INFO prepare_target{force=false package_id=png v0.18.1 target="png"}: cargo::core::compiler::fingerprint: fingerprint error for png v0.18.1/Check { test: false }/TargetInner { ..: lib_target("png", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\png-0.18.1\\src\\lib.rs", Edition2021) }
+   0.730287200s  INFO prepare_target{force=false package_id=png v0.18.1 target="png"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\png-c8fe88d15aab4471\lib-png`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.732415400s  INFO prepare_target{force=false package_id=flate2 v1.1.9 target="flate2"}: cargo::core::compiler::fingerprint: fingerprint error for flate2 v1.1.9/Check { test: false }/TargetInner { ..: lib_target("flate2", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\flate2-1.1.9\\src\\lib.rs", Edition2018) }
+   0.732442100s  INFO prepare_target{force=false package_id=flate2 v1.1.9 target="flate2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\flate2-8067300206314860\lib-flate2`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.733081200s  INFO prepare_target{force=false package_id=ravif v0.12.0 target="ravif"}: cargo::core::compiler::fingerprint: fingerprint error for ravif v0.12.0/Check { test: false }/TargetInner { ..: lib_target("ravif", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ravif-0.12.0\\src\\lib.rs", Edition2021) }
+   0.733107000s  INFO prepare_target{force=false package_id=ravif v0.12.0 target="ravif"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\ravif-a7dd18ed29a7754b\lib-ravif`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.734638700s  INFO prepare_target{force=false package_id=rav1e v0.8.1 target="rav1e"}: cargo::core::compiler::fingerprint: fingerprint error for rav1e v0.8.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("rav1e", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rav1e-0.8.1\\src\\lib.rs", Edition2021) }
+   0.734665200s  INFO prepare_target{force=false package_id=rav1e v0.8.1 target="rav1e"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\rav1e-d83306703b5ac055\lib-rav1e`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.736159000s  INFO prepare_target{force=false package_id=av-scenechange v0.14.1 target="av_scenechange"}: cargo::core::compiler::fingerprint: fingerprint error for av-scenechange v0.14.1/Check { test: false }/TargetInner { ..: lib_target("av_scenechange", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\av-scenechange-0.14.1\\src\\lib.rs", Edition2021) }
+   0.736185400s  INFO prepare_target{force=false package_id=av-scenechange v0.14.1 target="av_scenechange"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\av-scenechange-78d6350dccd1f335\lib-av_scenechange`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.740294500s  INFO prepare_target{force=false package_id=num-rational v0.4.2 target="num_rational"}: cargo::core::compiler::fingerprint: fingerprint error for num-rational v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_rational", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-rational-0.4.2\\src\\lib.rs", Edition2021) }
+   0.740323100s  INFO prepare_target{force=false package_id=num-rational v0.4.2 target="num_rational"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\num-rational-a946bc6652f4b424\lib-num_rational`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.740865200s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for num-bigint v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_bigint", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-bigint-0.4.6\\src\\lib.rs", Edition2021) }
+   0.740891200s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\num-bigint-f58e344efc391fd3\lib-num_bigint`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.741780500s  INFO prepare_target{force=false package_id=rayon v1.11.0 target="rayon"}: cargo::core::compiler::fingerprint: fingerprint error for rayon v1.11.0/Check { test: false }/TargetInner { ..: lib_target("rayon", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rayon-1.11.0\\src\\lib.rs", Edition2021) }
+   0.741807800s  INFO prepare_target{force=false package_id=rayon v1.11.0 target="rayon"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\rayon-dfe623393ef2744b\lib-rayon`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.744071600s  INFO prepare_target{force=false package_id=v_frame v0.3.9 target="v_frame"}: cargo::core::compiler::fingerprint: fingerprint error for v_frame v0.3.9/Check { test: false }/TargetInner { ..: lib_target("v_frame", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\v_frame-0.3.9\\src\\lib.rs", Edition2021) }
+   0.744100400s  INFO prepare_target{force=false package_id=v_frame v0.3.9 target="v_frame"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\v_frame-08afe71ec45599f4\lib-v_frame`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.744855900s  INFO prepare_target{force=false package_id=av1-grain v0.2.5 target="av1_grain"}: cargo::core::compiler::fingerprint: fingerprint error for av1-grain v0.2.5/Check { test: false }/TargetInner { ..: lib_target("av1_grain", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\av1-grain-0.2.5\\src\\lib.rs", Edition2021) }
+   0.744884300s  INFO prepare_target{force=false package_id=av1-grain v0.2.5 target="av1_grain"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\av1-grain-aabd732905eb84ea\lib-av1_grain`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.745693300s  INFO prepare_target{force=false package_id=nom v8.0.0 target="nom"}: cargo::core::compiler::fingerprint: fingerprint error for nom v8.0.0/Check { test: false }/TargetInner { ..: lib_target("nom", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nom-8.0.0\\src\\lib.rs", Edition2021) }
+   0.745720200s  INFO prepare_target{force=false package_id=nom v8.0.0 target="nom"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\nom-991bbf72f982dfe6\lib-nom`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.746774700s  INFO prepare_target{force=false package_id=itertools v0.14.0 target="itertools"}: cargo::core::compiler::fingerprint: fingerprint error for itertools v0.14.0/Check { test: false }/TargetInner { tested: false, benched: false, ..: lib_target("itertools", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itertools-0.14.0\\src\\lib.rs", Edition2018) }
+   0.746801700s  INFO prepare_target{force=false package_id=itertools v0.14.0 target="itertools"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\itertools-2e5331b3fd4b2000\lib-itertools`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.748469600s  INFO prepare_target{force=false package_id=maybe-rayon v0.1.1 target="maybe_rayon"}: cargo::core::compiler::fingerprint: fingerprint error for maybe-rayon v0.1.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("maybe_rayon", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\maybe-rayon-0.1.1\\src\\lib.rs", Edition2021) }
+   0.748498500s  INFO prepare_target{force=false package_id=maybe-rayon v0.1.1 target="maybe_rayon"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\maybe-rayon-a0b67d54dba375d4\lib-maybe_rayon`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.752574500s  INFO prepare_target{force=false package_id=tiff v0.10.3 target="tiff"}: cargo::core::compiler::fingerprint: fingerprint error for tiff v0.10.3/Check { test: false }/TargetInner { ..: lib_target("tiff", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tiff-0.10.3\\src\\lib.rs", Edition2021) }
+   0.752601600s  INFO prepare_target{force=false package_id=tiff v0.10.3 target="tiff"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\tiff-a2943390ba731ac6\lib-tiff`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.754518900s  INFO prepare_target{force=false package_id=zune-jpeg v0.5.12 target="zune_jpeg"}: cargo::core::compiler::fingerprint: fingerprint error for zune-jpeg v0.5.12/Check { test: false }/TargetInner { ..: lib_target("zune_jpeg", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zune-jpeg-0.5.12\\src\\lib.rs", Edition2021) }
+   0.754554900s  INFO prepare_target{force=false package_id=zune-jpeg v0.5.12 target="zune_jpeg"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\zune-jpeg-378e12e47d430f31\lib-zune_jpeg`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.755329400s  INFO prepare_target{force=false package_id=softbuffer v0.4.8 target="softbuffer"}: cargo::core::compiler::fingerprint: fingerprint error for softbuffer v0.4.8/Check { test: false }/TargetInner { ..: lib_target("softbuffer", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\softbuffer-0.4.8\\src\\lib.rs", Edition2021) }
+   0.755368600s  INFO prepare_target{force=false package_id=softbuffer v0.4.8 target="softbuffer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\softbuffer-607cacdfc26bf777\lib-softbuffer`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.756526100s  INFO prepare_target{force=false package_id=tracing v0.1.44 target="tracing"}: cargo::core::compiler::fingerprint: fingerprint error for tracing v0.1.44/Check { test: false }/TargetInner { ..: lib_target("tracing", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-0.1.44\\src\\lib.rs", Edition2018) }
+   0.756555300s  INFO prepare_target{force=false package_id=tracing v0.1.44 target="tracing"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\tracing-5eb693d7ced8d1e3\lib-tracing`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.757671500s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.61.2/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.61.2\\src\\lib.rs", Edition2021) }
+   0.757711800s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\windows-sys-fab1132169b61f60\lib-windows_sys`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.758789800s  INFO prepare_target{force=false package_id=tiny-skia v0.11.4 target="tiny_skia"}: cargo::core::compiler::fingerprint: fingerprint error for tiny-skia v0.11.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tiny_skia", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tiny-skia-0.11.4\\src\\lib.rs", Edition2018) }
+   0.758829400s  INFO prepare_target{force=false package_id=tiny-skia v0.11.4 target="tiny_skia"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\tiny-skia-fb3cc0e08b37bb30\lib-tiny_skia`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.760013400s  INFO prepare_target{force=false package_id=png v0.17.16 target="png"}: cargo::core::compiler::fingerprint: fingerprint error for png v0.17.16/Check { test: false }/TargetInner { ..: lib_target("png", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\png-0.17.16\\src\\lib.rs", Edition2018) }
+   0.760051800s  INFO prepare_target{force=false package_id=png v0.17.16 target="png"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\png-7dc1dfaa44eb3c95\lib-png`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.761164500s  INFO prepare_target{force=false package_id=tiny-skia-path v0.11.4 target="tiny_skia_path"}: cargo::core::compiler::fingerprint: fingerprint error for tiny-skia-path v0.11.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tiny_skia_path", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tiny-skia-path-0.11.4\\src\\lib.rs", Edition2018) }
+   0.761239600s  INFO prepare_target{force=false package_id=tiny-skia-path v0.11.4 target="tiny_skia_path"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\tiny-skia-path-50a758e7c98bda69\lib-tiny_skia_path`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.762344100s  INFO prepare_target{force=false package_id=winit v0.29.15 target="winit"}: cargo::core::compiler::fingerprint: fingerprint error for winit v0.29.15/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("winit", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\winit-0.29.15\\src\\lib.rs", Edition2021) }
+   0.762383100s  INFO prepare_target{force=false package_id=winit v0.29.15 target="winit"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\winit-96bb7e9f90a73a62\lib-winit`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.763997200s  INFO prepare_target{force=false package_id=unicode-segmentation v1.12.0 target="unicode_segmentation"}: cargo::core::compiler::fingerprint: fingerprint error for unicode-segmentation v1.12.0/Check { test: false }/TargetInner { ..: lib_target("unicode_segmentation", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\unicode-segmentation-1.12.0\\src\\lib.rs", Edition2018) }
+   0.764035500s  INFO prepare_target{force=false package_id=unicode-segmentation v1.12.0 target="unicode_segmentation"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\unicode-segmentation-ea82e2a469cc8c70\lib-unicode_segmentation`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.764552200s  INFO prepare_target{force=false package_id=windows-sys v0.48.0 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.48.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\shenx\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.48.0\\src\\lib.rs", Edition2018) }
+   0.764579700s  INFO prepare_target{force=false package_id=windows-sys v0.48.0 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\windows-sys-6a97ca4af6d6811f\lib-windows_sys`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.767872700s  INFO prepare_target{force=false package_id=NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash) target="NativeSplash"}: cargo::core::compiler::fingerprint: fingerprint error for NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash)/Check { test: true }/TargetInner { name: "NativeSplash", doc: true, ..: with_path("D:\\vcp\\VCPChat\\NativeSpalash\\src\\main.rs", Edition2024) }
+   0.767900400s  INFO prepare_target{force=false package_id=NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash) target="NativeSplash"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\vcp\VCPChat\NativeSpalash\target\debug\.fingerprint\NativeSplash-151a326378c52b4d\test-bin-NativeSplash`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking nom v8.0.0
+    Checking itertools v0.14.0
+    Checking flate2 v1.1.9
+    Checking pxfm v0.1.27
+    Checking image-webp v0.2.4
+    Checking windows-sys v0.61.2
+    Checking windows-sys v0.48.0
+    Checking zune-jpeg v0.5.12
+    Checking tracing v0.1.44
+    Checking tiny-skia-path v0.11.4
+    Checking ttf-parser v0.15.2
+    Checking zerocopy v0.8.39
+    Checking rayon-core v1.13.0
+    Checking num-bigint v0.4.6
+    Checking unicode-segmentation v1.12.0
+    Checking v_frame v0.3.9
+    Checking png v0.17.16
+    Checking png v0.18.1
+    Checking rayon v1.11.0
+    Checking num-rational v0.4.2
+    Checking tiny-skia v0.11.4
+    Checking av-scenechange v0.14.1
+    Checking maybe-rayon v0.1.1
+    Checking softbuffer v0.4.8
+    Checking av1-grain v0.2.5
+    Checking moxcms v0.7.11
+    Checking rav1e v0.8.1
+    Checking half v2.7.1
+    Checking ahash v0.8.12
+    Checking winit v0.29.15
+    Checking hashbrown v0.13.2
+    Checking tiff v0.10.3
+    Checking exr v1.74.0
+    Checking fontdue v0.7.3
+    Checking ravif v0.12.0
+    Checking image v0.25.9
+    Checking NativeSplash v0.1.0 (D:\vcp\VCPChat\NativeSpalash)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 29.11s

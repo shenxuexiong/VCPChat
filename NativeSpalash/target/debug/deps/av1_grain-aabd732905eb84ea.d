@@ -1,0 +1,11 @@
+D:\vcp\VCPChat\NativeSpalash\target\debug\deps\av1_grain-aabd732905eb84ea.d: C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\lib.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\create.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff\solver.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff\solver\util.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\parse.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\util.rs
+
+D:\vcp\VCPChat\NativeSpalash\target\debug\deps\libav1_grain-aabd732905eb84ea.rmeta: C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\lib.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\create.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff\solver.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff\solver\util.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\parse.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\util.rs
+
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\lib.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\create.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff\solver.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\diff\solver\util.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\parse.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\av1-grain-0.2.5\src\util.rs:

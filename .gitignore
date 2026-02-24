@@ -17,5 +17,10 @@ node_modules/
 # Rust build artifacts
 rust_audio_engine/target/
 
-# Binary files (too large for git)
+
+
 bin/
+# VCP PTY Reports
+VCPDistributedServer/Plugin/PTYShellExecutor/reports/
+
+

@@ -1,0 +1,12 @@
+D:\vcp\VCPChat\NativeSpalash\target\debug\deps\gif-2b07a05e7d6ca929.d: C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\lib.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\common.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\encoder.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\mod.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\converter.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\decoder.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\traits.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\../README.md
+
+D:\vcp\VCPChat\NativeSpalash\target\debug\deps\libgif-2b07a05e7d6ca929.rmeta: C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\lib.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\common.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\encoder.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\mod.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\converter.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\decoder.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\traits.rs C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\../README.md
+
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\lib.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\common.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\encoder.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\mod.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\converter.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\reader\decoder.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\traits.rs:
+C:\Users\shenx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.14.1\src\../README.md:
